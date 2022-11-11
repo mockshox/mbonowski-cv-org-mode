@@ -19,7 +19,7 @@ I am always p☺sitive.
 - _Sep.2021--present_: *Senior DevOps Engineer* /Dolby Laboratories/
   - Created Ansible-playbook scripts from scratch to provide automated configuration of MacOS GitLab runners
   - Cretated the dev environment for Dolby.io low-latency media platform to make it easier for developers and QA to validate new features  and improvements
-  - Refactored the Terraform code to upgrade the executable and AWS Provider versions to get rid of in-house developed modules. Familiar with remote state, drift detection, tfsec topics.
+  - Refactored the Terraform code to upgrade the executable and AWS Provider versions to get rid of in-house developed modules. Familiar with remote state, drift detection, tfsec topics
   - Developed GitLab runners autoscaling (EC2 ASG, Cloudwatch,  SystemsManager) for better availability and cost reduction
   - Implemented AWS Lambda continuous delivery (Python arm64 + GitLab)
   - Worked with Grafana dashboards; maintained monitoring and alerting
@@ -72,11 +72,11 @@ I am always p☺sitive.
 - Storm status app (Python, Flask)
   - Show current thunderstorm status for a city location. The app is based on http://burze.dzis.net WSDL API and is live at http://czywewroclawiujestburza.pl
 - Realtime spectrogram installation (Python, Numpy, MatPlotLib, PyAudio)
-  - Since I work with audio, I needed a /cheap/ way to monitor signal in a visual way so that I could rely not upon only on what I hear but also on what I see. An arm64 unit captures studio mixer output, analyzes samples and draws animated specgram figure.
+  - Since I work with audio, I needed a /cheap/ way to monitor signal in a visual way so that I could rely not upon only on what I hear but also on what I see. An arm64 unit captures studio mixer output, analyzes samples and draws animated specgram figure
 - Messenger thread autoresponder (Python, Fbchat)
-  - Type in ~/whatever~ and get a response.
+  - Type in ~/whatever~ and get a response
 - Messenger thread meme scraper (Python, Fbchat)
-  - Scrape all messages in a thread, analyze and extract ones containing an image.
+  - Scrape all messages in a thread, analyze and extract ones containing an image
 
 * After work
 - Technology/Science
