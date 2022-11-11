@@ -1,19 +1,20 @@
 #+TITLE: Mikołaj Bonowski
-#+EMAIL: mikolaj.bonowski@gmail.com
+#+AUTHOR: Mikołaj Bonowski (mikolaj.bonowski@gmail.com)
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
-#+OPTIONS: user-mail-address:mikolaj.bonowski@gmail.com
+#+HTML_HEAD_EXTRA: <style>*{font-family: monospace !important}</style>
+#+HTML_HEAD_EXTRA: <style>*{line-height: 1.3 !important}</style>
 
 
 * About me
-I have been an IT professional for 9 years during which time I have mostly worked on server-side application deployments, infrastructure maintenance, performance measurements and automating boring things. I have used Linux since I was 14 years old.
+I have been an IT professional for 9 years, during which time I have mostly worked on server-side application deployments, infrastructure maintenance, performance measurements and automating boring things. I have used Linux since I was 14 years old.
 My strength is my ability to communicate precisely; interacting with people comes naturally to me and I like to be around (ESTP personality type).
 At work, I admire command-line interfaces and open-source software.
 Emacs is my friend. I prefer technical literature, hands-on experiences, and learning new things.
 
-My plan for the nearest future is to get into Go programming and into working with sound professionally.
+My plan for the nearest future is to get into Go programming, Emacs Lisp and into working with sound professionally.
 
-Always p☺sitive.
+I am always p☺sitive.
 
 
 * Commercial experience
@@ -53,7 +54,7 @@ Always p☺sitive.
 
 * Stack
 - *CI*: Buildbot, GitLab, Jenkins, GitHub
-- *Cloud*: AWS (Athena, ECR, EC2, S3, SM, RDS), GCP (DataStudio, Bigtable), Terraform, Vault, Cloud-init
+- *Cloud*: AWS (Athena, Cloudwatch, ECR, EC2, S3, SM, RDS), GCP (DataStudio, Bigtable), Terraform, Vault, Cloud-init
 - *Coding*: Python, bash/fish/sh, Groovy, YAML, Jinja2, JavaScript
 - *Configuration management*: Ansible
 - *Databases*: PostgreSQL, MySQL, Restic
@@ -73,14 +74,13 @@ Always p☺sitive.
 
 * Personal projects
 - Storm status app (Python, Flask)
-- Show current thunderstorm status for a city location.
-The app is based on http://burze.dzis.net WSDL API and is live at http://czywewroclawiujestburza.pl
+  - Show current thunderstorm status for a city location. The app is based on http://burze.dzis.net WSDL API and is live at http://czywewroclawiujestburza.pl
 - Realtime spectrogram installation (Python, Numpy, MatPlotLib, PyAudio)
-Since I work with audio, I needed a way to monitor signal in a visual way so that I could rely not upon only on what I hear but also on what I see. An arm64 unit captures studio mixer output, analyzes samples and draws animated specgram figure.
+  - Since I work with audio, I needed a /cheap/ way to monitor signal in a visual way so that I could rely not upon only on what I hear but also on what I see. An arm64 unit captures studio mixer output, analyzes samples and draws animated specgram figure.
 - Messenger thread autoresponder (Python, Fbchat)
-Type in ~/whatever~ and get a response.
+  - Type in ~/whatever~ and get a response.
 - Messenger thread meme scraper (Python, Fbchat)
-Scrape all messages in a thread, analyze and extract ones containing an image.
+  - Scrape all messages in a thread, analyze and extract ones containing an image.
 
 * After work
 - Technology/Science
