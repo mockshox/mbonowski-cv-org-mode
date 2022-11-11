@@ -1,0 +1,89 @@
+#+TITLE: Mikołaj Bonowski
+#+EMAIL: mikolaj.bonowski@gmail.com
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+OPTIONS: user-mail-address:mikolaj.bonowski@gmail.com
+
+
+* About me
+I have been an IT professional for 9 years during which time I have mostly worked on server-side application deployments, infrastructure maintenance, performance measurements and automating boring things. I have used Linux since I was 14 years old.
+My strength is my ability to communicate precisely; interacting with people comes naturally to me and I like to be around (ESTP personality type).
+At work, I admire command-line interfaces and open-source software.
+Emacs is my friend. I prefer technical literature, hands-on experiences, and learning new things.
+
+My plan for the nearest future is to get into Go programming and into working with sound professionally.
+
+Always p☺sitive.
+
+
+* Commercial experience
+- _Sep.2021--present_: Senior DevOps Engineer /Dolby Laboratories/
+  - Created Ansible-playbook scripts from scratch to provide automated configuration of MacOS GitLab runners
+  - Cretated the dev environment for Dolby.io low-latency media platform to make it easier for developers and QA to validate new features  and improvements
+  - Refactored the Terraform code to upgrade the executable and AWS Provider versions to get rid of in-house developed modules. Familiar with remote state, drift detection, tfsec topics.
+  - Developed GitLab runners autoscaling (EC2 ASG, Cloudwatch,  SystemsManager) for better availability and cost reduction
+  - Implemented AWS Lambda continuous delivery (Python arm64 + GitLab)
+  - Worked with Grafana dashboards; maintained monitoring and alerting
+  - Worked with remote teams across time zones on Dolby.io web services (deployments, configuration, monitoring, maintenance, rollbacks)
+  - Responded to incidents in systems; provided the management with business impact reports
+
+- _Jan.2019--Aug.2021_: DevOps Engineer /Opera Software/
+  - Managed Python-based, company-wide continuous integration system that automated C++/Objective-C/Java software build, test and deployment processes (mostly Chromium-based). This Buildbot instance attached ~100 either virtual and physical Linux, WindowsServer and MacOS machines and was configured by ansible-playbook scripts
+  - Managed Opera Lab (device configuration, maintenance, troubleshooting) of ~30 physical Apple machines (x86, Apple Silicon) to provide reliable computing power for the CI
+  - Developed, deployed and monitored services supporting Opera Browser production and release processes
+  - Responded to incidents in core systems; fixed issues and provided solutions to avoid recurring problems
+		
+- _Apr.2016--Oct.2018_: QA Engineer /Vewd Software (former Opera TV)/
+  - Developed and maintained UI, performance and memory tests for embedded systems
+  - Monitored and analyzed nightly test results
+  - Managed device lab (ARM, MIPS, x86 platforms)
+  - Performed audio/video tests (html5, OIPF VOD)
+
+- _Aug.2015--Mar.2016_: QA Tester /Young/Skilled/
+  - Performed functional Web application tests
+  - Developed E2E automated testing for B2B/B2C platforms (Jasmine2)
+
+- _Feb.2014--Jul.2015_: IT QA Specialist /PGS Software/
+  - Developed and maintained test automation for business platforms
+  - Managed build & test environments (Jenkins)
+
+- _Mar.2013--Feb.2014_: Software Tester /Tequila Games/
+  - Created and executed test cases
+  - Developed test automation for Unity3D mobile games (Sikuli, Jython)
+
+* Stack
+- *CI*: Buildbot, GitLab, Jenkins, GitHub
+- *Cloud*: AWS (Athena, ECR, EC2, S3, SM, RDS), GCP (DataStudio, Bigtable), Terraform, Vault, Cloud-init
+- *Coding*: Python, bash/fish/sh, Groovy, YAML, Jinja2, JavaScript
+- *Configuration management*: Ansible
+- *Databases*: PostgreSQL, MySQL, Restic
+- *Misc*: OpenSSH, OpenCore, Ceph
+- *Monitoring*: Prometheus, Grafana, Kibana
+- *Orchestration*: Kubernetes, Docker(-compose)
+- *OS*: MacOS/BSD, Linux-based (Debian, Arch, Fedora, NixOS)
+- *Perf testing*: Catapult Telemetry, Locust
+- *Web*: Nginx, GraphQL, SSL/TLS
+
+
+* Education & training
+- _2021_: Certified Scrum Master /scrumalliance.org/
+- _2015_: ISTQB Foundation Level /sjsi.org/
+- _2011_: Mathematics & Physics graduate /General Secondary School No. 5 in Wrocław/
+
+
+* Personal projects
+- Storm status app (Python, Flask)
+- Show current thunderstorm status for a city location.
+The app is based on http://burze.dzis.net WSDL API and is live at http://czywewroclawiujestburza.pl
+- Realtime spectrogram installation (Python, Numpy, MatPlotLib, PyAudio)
+Since I work with audio, I needed a way to monitor signal in a visual way so that I could rely not upon only on what I hear but also on what I see. An arm64 unit captures studio mixer output, analyzes samples and draws animated specgram figure.
+- Messenger thread autoresponder (Python, Fbchat)
+Type in ~/whatever~ and get a response.
+- Messenger thread meme scraper (Python, Fbchat)
+Scrape all messages in a thread, analyze and extract ones containing an image.
+
+* After work
+- Technology/Science
+- Music production/consumption
+- Workflow optimisation
+- Cycling/Snowboarding/Outdoors
