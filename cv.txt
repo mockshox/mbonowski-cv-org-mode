@@ -5,7 +5,6 @@
 #+HTML_HEAD_EXTRA: <style>*{font-family: monospace !important}</style>
 #+HTML_HEAD_EXTRA: <style>*{line-height: 1.3 !important}</style>
 
-
 * About me
 I have been an IT professional for 9 years, during which time I have mostly worked on server-side application deployments, infrastructure maintenance, performance measurements and automating boring things. I have used Linux since I was 14 years old.
 My strength is my ability to communicate precisely; interacting with people comes naturally to me and I like to be around (ESTP personality type).
@@ -15,7 +14,6 @@ Emacs is my friend. I prefer technical literature, hands-on experiences, and lea
 My plan for the nearest future is to get into Go programming, Emacs Lisp and into working with sound professionally.
 
 I am always p☺sitive.
-
 
 * Commercial experience
 - _Sep.2021--present_: Senior DevOps Engineer /Dolby Laboratories/
@@ -33,7 +31,7 @@ I am always p☺sitive.
   - Managed Opera Lab (device configuration, maintenance, troubleshooting) of ~30 physical Apple machines (x86, Apple Silicon) to provide reliable computing power for the CI
   - Developed, deployed and monitored services supporting Opera Browser production and release processes
   - Responded to incidents in core systems; fixed issues and provided solutions to avoid recurring problems
-		
+
 - _Apr.2016--Oct.2018_: QA Engineer /Vewd Software (former Opera TV)/
   - Developed and maintained UI, performance and memory tests for embedded systems
   - Monitored and analyzed nightly test results
@@ -65,12 +63,10 @@ I am always p☺sitive.
 - *Perf testing*: Catapult Telemetry, Locust
 - *Web*: Nginx, GraphQL, SSL/TLS
 
-
 * Education & training
 - _2021_: Certified Scrum Master /scrumalliance.org/
 - _2015_: ISTQB Foundation Level /sjsi.org/
 - _2011_: Mathematics & Physics graduate /General Secondary School No. 5 in Wrocław/
-
 
 * Personal projects
 - Storm status app (Python, Flask)
